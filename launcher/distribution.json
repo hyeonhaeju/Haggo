@@ -9,8 +9,8 @@
   "servers": [
     {
       "id": "Haggo-1.21.1",
-      "name": "하꼬의숲: 면접 서버",
-      "description": "스트리머 하꼬의숲 전용 면접 런처 입니다.",
+      "name": "하꼬의숲:면접 서버",
+      "description": "하꼬의숲:면접 전용 서버 입니다",
       "icon": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/profil_server.png",
       "version": "1.0.0",
       "address": "면접소.m-c.live",
@@ -39,7 +39,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 2849,
-                "MD5": "02740235a25d25dae455bfceb222866e",
+                "MD5": "52c2d43caed943a2d32566b74a8f9fef",
                 "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/versions/1.21.1-fabric-0.16.14/1.21.1-fabric-0.16.14.json"
               }
             },
@@ -196,36 +196,14 @@
           }
         },
         {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 4384,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/options.txt",
-            "MD5": "682f9aaeba94897643fe72c4b52267b9",
-            "path": "options.txt"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 11416,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/servers.dat",
-            "MD5": "babf00976c4eb2d09965982f8006c608",
-            "path": "servers.dat"
-          }
-        },
-        {
           "id": "translations.properties",
           "name": "translations.properties",
           "type": "File",
           "artifact": {
             "size": 1182,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/voicechat/translations.properties",
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/config/voicechat/translations.properties",
             "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
-            "path": "voicechat/translations.properties"
+            "path": "config/voicechat/translations.properties"
           }
         },
         {
@@ -234,9 +212,9 @@
           "type": "File",
           "artifact": {
             "size": 2,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/voicechat/username-cache.json",
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/config/voicechat/username-cache.json",
             "MD5": "99914b932bd37a50b983c5e7c90ae93b",
-            "path": "voicechat/username-cache.json"
+            "path": "config/voicechat/username-cache.json"
           }
         },
         {
@@ -244,10 +222,10 @@
           "name": "voicechat-client.properties",
           "type": "File",
           "artifact": {
-            "size": 4425,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/voicechat/voicechat-client.properties",
-            "MD5": "ea6d7c0fac3c5485b15248c44d5f4bb5",
-            "path": "voicechat/voicechat-client.properties"
+            "size": 4292,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "d2b0ce6e61ee9fbaae5ab86c81666419",
+            "path": "config/voicechat/voicechat-client.properties"
           }
         },
         {
@@ -256,9 +234,9 @@
           "type": "File",
           "artifact": {
             "size": 2502,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/voicechat/voicechat-server.properties",
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/config/voicechat/voicechat-server.properties",
             "MD5": "4f05e35fc0532bc45a08f16d7e008845",
-            "path": "voicechat/voicechat-server.properties"
+            "path": "config/voicechat/voicechat-server.properties"
           }
         },
         {
@@ -267,9 +245,9 @@
           "type": "File",
           "artifact": {
             "size": 37,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/voicechat/voicechat-volumes.properties",
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/config/voicechat/voicechat-volumes.properties",
             "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
-            "path": "voicechat/voicechat-volumes.properties"
+            "path": "config/voicechat/voicechat-volumes.properties"
           }
         },
         {
@@ -278,9 +256,75 @@
           "type": "File",
           "artifact": {
             "size": 713,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/zoomify.json",
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/config/zoomify.json",
             "MD5": "1795fb14e4ff13b5c11b8e88d44389bc",
-            "path": "zoomify.json"
+            "path": "config/zoomify.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4385,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/options.txt",
+            "MD5": "4fdf0ecdbee8c3626a7716d7ef0fdbde",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 11420,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/servers.dat",
+            "MD5": "caa79c067df36849545d508792c48ab5",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip",
+          "name": "ComplementaryUnbound_r5.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 452408,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip",
+            "MD5": "94f56d5c5c343b9a0f4ad7eb135f9afa",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip.txt",
+          "name": "ComplementaryUnbound_r5.4.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1648,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip.txt",
+            "MD5": "82b2c8fcddb3fdd191e07f96119bd598",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip.txt"
+          }
+        },
+        {
+          "id": "photon_v1.1.zip",
+          "name": "photon_v1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3563885,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/shaderpacks/photon_v1.1.zip",
+            "MD5": "e4f15b886ee2ed7349ca264bcfcc1147",
+            "path": "shaderpacks/photon_v1.1.zip"
+          }
+        },
+        {
+          "id": "photon_v1.1.zip.txt",
+          "name": "photon_v1.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/shaderpacks/photon_v1.1.zip.txt",
+            "MD5": "a0d7b66b48fbf749401cee215f440243",
+            "path": "shaderpacks/photon_v1.1.zip.txt"
           }
         }
       ]

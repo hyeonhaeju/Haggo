@@ -71,7 +71,7 @@ notificationDisplayTime:1.0
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:2
-tutorialStep:none
+tutorialStep:find_tree
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
@@ -98,7 +98,7 @@ key_key.sneak:key.keyboard.left.shift
 key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
-key_key.chat:key.keyboard.enter
+key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
@@ -139,7 +139,7 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
-soundCategory_master:0.5074503311258278
+soundCategory_master:0.5057947019867549
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
