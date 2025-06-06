@@ -1,0 +1,289 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Haggo-1.21.1",
+      "name": "하꼬의숲: 면접 서버",
+      "description": "스트리머 하꼬의숲 전용 면접 런처 입니다.",
+      "icon": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/profil_server.png",
+      "version": "1.0.0",
+      "address": "면접소.m-c.live",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.14",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1416842,
+            "MD5": "e041ec21fad8f4dbd2ba7e73c25900d1",
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.14",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "02740235a25d25dae455bfceb222866e",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/versions/1.21.1-fabric-0.16.14/1.21.1-fabric-0.16.14.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1499194,
+                "MD5": "f810932fdff9aa436d7d4f4ac69ce8c2",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.1+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2415045,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/fabricmods/required/fabric-api-0.116.1+1.21.1.jar",
+            "MD5": "1789df77aaedfc7139d6cc96fd779e3b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.3+kotlin.2.1.21@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7163558,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/fabricmods/required/fabric-language-kotlin-1.13.3+kotlin.2.1.21.jar",
+            "MD5": "3c186cee540e7f21d8327bed71dd9d6b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.8.3+mc1.21@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 528191,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/fabricmods/required/koreanpatch-fabric-1.8.3+mc1.21.jar",
+            "MD5": "917743b0a5408a31cee5004e61c6b0c2"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/fabricmods/required/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "MD5": "aa37ba0048a1af6b554b137088cad484"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.5.30@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6608082,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/fabricmods/required/voicechat-fabric-1.21.1-2.5.30.jar",
+            "MD5": "ad948d180235434d829ce8efc0fa9a16"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.21.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1116172,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/fabricmods/required/yet_another_config_lib_v3-3.6.6+1.21.1-fabric.jar",
+            "MD5": "b68eee5cc922c8860816cab71460546f"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.2+1.21.1@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807934,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/fabricmods/required/Zoomify-2.14.2+1.21.1.jar",
+            "MD5": "bcde79e6db9ba2b4077f8b911d5b3aab"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4384,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/options.txt",
+            "MD5": "682f9aaeba94897643fe72c4b52267b9",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 11416,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/servers.dat",
+            "MD5": "babf00976c4eb2d09965982f8006c608",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "path": "voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/voicechat/username-cache.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4425,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/voicechat/voicechat-client.properties",
+            "MD5": "ea6d7c0fac3c5485b15248c44d5f4bb5",
+            "path": "voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2502,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/voicechat/voicechat-server.properties",
+            "MD5": "4f05e35fc0532bc45a08f16d7e008845",
+            "path": "voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-volumes.properties",
+          "name": "voicechat-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/voicechat/voicechat-volumes.properties",
+            "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
+            "path": "voicechat/voicechat-volumes.properties"
+          }
+        },
+        {
+          "id": "zoomify.json",
+          "name": "zoomify.json",
+          "type": "File",
+          "artifact": {
+            "size": 713,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/Haggo-1.21.1/files/zoomify.json",
+            "MD5": "1795fb14e4ff13b5c11b8e88d44389bc",
+            "path": "zoomify.json"
+          }
+        }
+      ]
+    }
+  ]
+}
