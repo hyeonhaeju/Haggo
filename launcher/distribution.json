@@ -1589,6 +1589,39 @@
           }
         },
         {
+          "id": "하꼬의숲RP.zip",
+          "name": "하꼬의숲RP.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1951773,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/resourcepacks/%ED%95%98%EA%BC%AC%EC%9D%98%EC%88%B2RP.zip",
+            "MD5": "3e9f478c097fd716270e39643e8aa22f",
+            "path": "resourcepacks/하꼬의숲RP.zip"
+          }
+        },
+        {
+          "id": "하꼬의숲_자연리팩(권장).zip",
+          "name": "하꼬의숲_자연리팩(권장).zip",
+          "type": "File",
+          "artifact": {
+            "size": 1481465,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/resourcepacks/%ED%95%98%EA%BC%AC%EC%9D%98%EC%88%B2_%EC%9E%90%EC%97%B0%EB%A6%AC%ED%8C%A9(%EA%B6%8C%EC%9E%A5).zip",
+            "MD5": "73984cf37482d2706cc1a28d5d63a074",
+            "path": "resourcepacks/하꼬의숲_자연리팩(권장).zip"
+          }
+        },
+        {
+          "id": "하꼬전용 모션리팩 - V1.15.zip",
+          "name": "하꼬전용 모션리팩 - V1.15.zip",
+          "type": "File",
+          "artifact": {
+            "size": 116175,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/resourcepacks/%ED%95%98%EA%BC%AC%EC%A0%84%EC%9A%A9%20%EB%AA%A8%EC%85%98%EB%A6%AC%ED%8C%A9%20-%20V1.15.zip",
+            "MD5": "e64f259af7fc9be053faa94569bcc003",
+            "path": "resourcepacks/하꼬전용 모션리팩 - V1.15.zip"
+          }
+        },
+        {
           "id": "ComplementaryUnbound_r5.4.zip",
           "name": "ComplementaryUnbound_r5.4.zip",
           "type": "File",
