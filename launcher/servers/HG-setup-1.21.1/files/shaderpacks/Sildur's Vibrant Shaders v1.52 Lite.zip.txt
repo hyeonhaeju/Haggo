@@ -1,0 +1,5 @@
+#Sat Aug 02 05:53:17 KST 2025
+TAA=false
+bloom_strength=0.5
+iceRefl=true
+waterRefl=true

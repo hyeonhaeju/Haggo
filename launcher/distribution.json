@@ -1,0 +1,1638 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "HG-setup-1.21.1",
+      "name": "하꼬의숲 서버",
+      "description": "하꼬의숲 스트리머 전용 서버",
+      "icon": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/profil_server.png",
+      "version": "1.0.0",
+      "address": "node1.sudis.kr:25130",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.14",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1416842,
+            "MD5": "e041ec21fad8f4dbd2ba7e73c25900d1",
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.14",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "68e2dd7a52ea7de5b0e89f67eae123ca",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/versions/1.21.1-fabric-0.16.14/1.21.1-fabric-0.16.14.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1499194,
+                "MD5": "f810932fdff9aa436d7d4f4ac69ce8c2",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev.architectury.utils:architectury:13.0.8@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 600915,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/architectury-13.0.8-fabric.jar",
+            "MD5": "702e92d09a4855c6c8aa9e738a48efa4"
+          }
+        },
+        {
+          "id": "net.blay09.mods.balm:balm-fabric:21.0.26@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 457954,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/balm-fabric-1.21.1-21.0.26.jar",
+            "MD5": "ed2aefd0898c4e181af6c974fa36a4c0"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:21.0.48@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 620962,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/balm-fabric-1.21.1-21.0.48.jar",
+            "MD5": "288fb23460ce84b830dd6a7ad6190c7a"
+          }
+        },
+        {
+          "id": "com.ishland:c2me:0.3.0+alpha.0.320+1.21.1@jar",
+          "name": "Concurrent Chunk Management Engine",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4667083,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/c2me-fabric-mc1.21.1-0.3.0+alpha.0.320.jar",
+            "MD5": "3787655d42a44a0652fae5f3e0ee6f82"
+          }
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.0@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 163227,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/caramelChat-mc1.20.4-fabric-1.2.0.jar",
+            "MD5": "59afda01c0be221d5e692e97dd2b77bf"
+          }
+        },
+        {
+          "id": "com.koteinik:chunksfadein:2.0.3-1.21@jar",
+          "name": "Chunks Fade In",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 323043,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/chunksfadein-fabric-2.0.3-1.21.jar",
+            "MD5": "dc7ec2b1b0b28d83e9db75ba0445ceda"
+          }
+        },
+        {
+          "id": "shcm.shsupercm:citresewn:1.2.2+1.21@jar",
+          "name": "CIT Resewn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 396723,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/citresewn-1.2.2+1.21.jar",
+            "MD5": "854f61b1e8c28a6f28cfcba4eff41647"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:15.0.140@jar",
+          "name": "Cloth Config v15",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1157166,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/cloth-config-15.0.140-fabric.jar",
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.21@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1014044,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/continuity-3.0.0+1.21.jar",
+            "MD5": "daee3841730e2576a621943f289deadb"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:21.1.2@jar",
+          "name": "Default Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 92152,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/defaultoptions-fabric-1.21.1-21.1.2.jar",
+            "MD5": "7e043fa1f4b208bd60986f77b3bc16b7"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:21.1.4@jar",
+          "name": "Default Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 98189,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/defaultoptions-fabric-1.21.1-21.1.4.jar",
+            "MD5": "94ce73f417999b8825f0bab7f03a4bfa"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 444709,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/entity_model_features_fabric_1.21.1-2.4.1.jar",
+            "MD5": "0dc5775f29f779b17cbf03d42c1a670e"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 649930,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/entity_texture_features_fabric_1.21.1-6.2.9.jar",
+            "MD5": "4baf4440a9210304f2cd133e5673da33"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.2@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 67575,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/entityculling-fabric-1.7.2-mc1.21.jar",
+            "MD5": "6a9e20a352cd633b1970398a616bf271"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.115.0+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2385171,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/fabric-api-0.115.0+1.21.1.jar",
+            "MD5": "5e627455ae16cbb2c50eb0dd76314b1f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.0+kotlin.2.1.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7089756,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/fabric-language-kotlin-1.13.0+kotlin.2.1.0.jar",
+            "MD5": "f6623d8c006095c4e08323f084e6c00e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.0.2-hotfix@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120709,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/ferritecore-7.0.2-hotfix-fabric.jar",
+            "MD5": "6d381efd51de1cbbdb8070d346f32555"
+          }
+        },
+        {
+          "id": "generated.fabricmod:forcecloseworldloadingscreen:2.2.3@jar",
+          "name": "Kennytv's epic force close loading screen mod for Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 115043,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/forcecloseloadingscreen-2.2.3.jar",
+            "MD5": "838da17087da84d2649cc862511ec210"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.1.3@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 631046,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/ForgeConfigAPIPort-v21.1.3-1.21.1-Fabric.jar",
+            "MD5": "91ebf44e3e23f58c20db21178e5be6c8"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.1+1.21@jar",
+          "name": "Fzzy Config",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2205675,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/fzzy_config-0.7.1+1.21.jar",
+            "MD5": "6e386e669beb77d9647fe31b3b45581d"
+          }
+        },
+        {
+          "id": "com.holdmyitems:hold-my-items:4.3@jar",
+          "name": "Hold My Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105906,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/HMI%204.3%20-%201.21.1.jar",
+            "MD5": "e75b24932e2e5022d23a093077249a1a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.3.3+1.21.1@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 240775,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/ImmediatelyFast-Fabric-1.3.3+1.21.1.jar",
+            "MD5": "2f89d19b872aa42b0e936dcd5fc4a32c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.1+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2677842,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/iris-fabric-1.8.1+mc1.21.1.jar",
+            "MD5": "f485ec51b478ca0b4bf86256c1c82964"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.1-6.0.0-beta.52@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3564300,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/journeymap-fabric-1.21.1-6.0.0-beta.52.jar",
+            "MD5": "30012982dc1580f49e3c1569dc059203"
+          }
+        },
+        {
+          "id": "generated.fabricmod:lambdynlights:4.1.5+1.21.1@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1196680,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/lambdynamiclights-4.1.5+1.21.1.jar",
+            "MD5": "057c7ecd97b6347cce9f6cea0f4d609d"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.10@jar",
+          "name": "Melody",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 188035,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/melody_fabric_1.0.10_MC_1.21.jar",
+            "MD5": "0f1bfbf2dd4fa047a1616fc448f3b856"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.21-1.6@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 62761,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/modelfix-1.21-1.6-fabric.jar",
+            "MD5": "7bbde6d3602d01d925df77c79e6ae477"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973066,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/modmenu-11.0.3.jar",
+            "MD5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0"
+          }
+        },
+        {
+          "id": "it.hurts.octostudios:octolib:0.5.0.1@jar",
+          "name": "OctoLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 423202,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/OctoLib-FABRIC-0.5.0.1.jar",
+            "MD5": "9d4d83e6ecb2ea446a30cb0f72cf5be0"
+          }
+        },
+        {
+          "id": "io.wispforest:owo:0.12.15.4+1.21@jar",
+          "name": "Oωo",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1183559,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/owo-lib-0.12.15.4+1.21.jar",
+            "MD5": "3627aee17111e12a8c66928f5d7a3fba"
+          }
+        },
+        {
+          "id": "dev.tonimatas:packetfixer:1.4.3@jar",
+          "name": "Packet Fixer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21644,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/packetfixer-fabric-1.4.3-1.21-to-1.21.3.jar",
+            "MD5": "783d17fb3664686ec5cf73cee2c796a2"
+          }
+        },
+        {
+          "id": "pigcart.particlerain.loaders:particlerain:4.0.0-alpha.3+1.21.1-fabric@jar",
+          "name": "Particle Rain",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 543409,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/particlerain-4.0.0-alpha.3+1.21.1-fabric.jar",
+            "MD5": "64a1b04d38349450fd99001fa8030193"
+          }
+        },
+        {
+          "id": "com.chailotl:particular:1.1.2+1.21@jar",
+          "name": "Particular",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 240317,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/particular-1.21.1-Fabric-1.1.2.jar",
+            "MD5": "98825e96e05e8c4a55a582278d9aca01"
+          }
+        },
+        {
+          "id": "generated.fabricmod:placeholder-api:2.4.2+1.21@jar",
+          "name": "Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 232325,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/placeholder-api-2.4.2+1.21.jar",
+            "MD5": "4de8568a088a276c94168514d625413d"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.5@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12185459,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/plasmovoice-fabric-1.21-2.1.5.jar",
+            "MD5": "32a1de045f7e8582a27a5389f2c712c8"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.11.0+1.21@jar",
+          "name": "Presence Footsteps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5689995,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/PresenceFootsteps-1.11.0+1.21.jar",
+            "MD5": "22a1ddd1a3c56918a68825c69c618710"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.3+mc1.21.4@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81067,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
+            "MD5": "85f69ebd3bde2559ee53c01daa8e361e"
+          }
+        },
+        {
+          "id": "smsk.smoothscroll:smoothscroll:2.2.1@jar",
+          "name": "Smooth Scroll",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 76919,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/smoothscroll-2.2.1-1.21.1.jar",
+            "MD5": "4c3464cd2a09683097f03d2a59fbbba8"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.6.0+mc1.21.1@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 373661,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/sodium-extra-fabric-0.6.0+mc1.21.1.jar",
+            "MD5": "a2aa3212fe6397f39984b8c9e840956a"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.5+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1289453,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/sodium-fabric-0.6.5+mc1.21.1.jar",
+            "MD5": "a3e62affdeb8c12331adaa2e1f783ed7"
+          }
+        },
+        {
+          "id": "einstein.subtle_effects:subtle_effects:1.11.0@jar",
+          "name": "Subtle Effects",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1811908,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/SubtleEffects-fabric-1.21.1-1.11.0.jar",
+            "MD5": "d03792026b02f0fa0f4962bd3b13b8da"
+          }
+        },
+        {
+          "id": "com.cerbon:talk_balloons:1.1.6@jar",
+          "name": "Talk Balloons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 48742,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/TalkBalloons-Fabric-1.21.1-1.1.6.jar",
+            "MD5": "493fc6a2f3d554ac7931c00ee1c6a736"
+          }
+        },
+        {
+          "id": "dev.tr7zw:waveycapes:1.5.1@jar",
+          "name": "WaveyCapes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 368897,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/waveycapes-fabric-1.5.1-mc1.21.jar",
+            "MD5": "168216e432e9c7b14a9e72f46bd07805"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.2+1.21-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1108730,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/YetAnotherConfigLib-3.6.2+1.21-fabric.jar",
+            "MD5": "0ba1c37e4aa0091351818b5894e733e4"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.2+1.21.1@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807934,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/fabricmods/required/Zoomify-2.14.2+1.21.1.jar",
+            "MD5": "bcde79e6db9ba2b4077f8b911d5b3aab"
+          }
+        },
+        {
+          "id": "balm-client.toml",
+          "name": "balm-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 786,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/balm-client.toml",
+            "MD5": "29c4f7d040771739fbf3181572594a21",
+            "path": "config/balm-client.toml"
+          }
+        },
+        {
+          "id": "balm-common.toml",
+          "name": "balm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 873,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/balm-common.toml",
+            "MD5": "f0aea733d0b955b2f5b6431f7aad0f12",
+            "path": "config/balm-common.toml"
+          }
+        },
+        {
+          "id": "c2me.toml",
+          "name": "c2me.toml",
+          "type": "File",
+          "artifact": {
+            "size": 8935,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/c2me.toml",
+            "MD5": "93b5999549f8931987febe4ad00ad476",
+            "path": "config/c2me.toml"
+          }
+        },
+        {
+          "id": "chunksfadein.properties",
+          "name": "chunksfadein.properties",
+          "type": "File",
+          "artifact": {
+            "size": 414,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/chunksfadein.properties",
+            "MD5": "502ef4b4f1fe2c44b4f4a612d29c5420",
+            "path": "config/chunksfadein.properties"
+          }
+        },
+        {
+          "id": "citresewn.json",
+          "name": "citresewn.json",
+          "type": "File",
+          "artifact": {
+            "size": 121,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/citresewn.json",
+            "MD5": "da5f2a0bcc6d4263222686cd16c5575e",
+            "path": "config/citresewn.json"
+          }
+        },
+        {
+          "id": "continuity.json",
+          "name": "continuity.json",
+          "type": "File",
+          "artifact": {
+            "size": 122,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/continuity.json",
+            "MD5": "16114edbb9460c49373bb12561ddf7c3",
+            "path": "config/continuity.json"
+          }
+        },
+        {
+          "id": "keybindings.txt",
+          "name": "keybindings.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3158,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/defaultoptions/keybindings.txt",
+            "MD5": "74494f670bc71fb344c3738ad27ae8f1",
+            "path": "config/defaultoptions/keybindings.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2610,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/defaultoptions/options.txt",
+            "MD5": "20d90866cd81a49f83f70900809c48b9",
+            "path": "config/defaultoptions/options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 113,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/defaultoptions/servers.dat",
+            "MD5": "46cd2884f4f4b322ef3fd42249a104ae",
+            "path": "config/defaultoptions/servers.dat"
+          }
+        },
+        {
+          "id": "defaultoptions-common.toml",
+          "name": "defaultoptions-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 333,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/defaultoptions-common.toml",
+            "MD5": "3dd3397e976f9184eb32abde533cf247",
+            "path": "config/defaultoptions-common.toml"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 1051,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/entityculling.json",
+            "MD5": "5503396618de7bf1d1e8c6634198acdd",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "entity_model_features.json",
+          "name": "entity_model_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1080,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/entity_model_features.json",
+            "MD5": "816f1902910c6c5ada74d06c0fc30112",
+            "path": "config/entity_model_features.json"
+          }
+        },
+        {
+          "id": "entity_texture_features.json",
+          "name": "entity_texture_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1420,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/entity_texture_features.json",
+            "MD5": "70bc0a7c3e75a25a9049facdc3a0a7ea",
+            "path": "config/entity_texture_features.json"
+          }
+        },
+        {
+          "id": "etf_warnings.json",
+          "name": "etf_warnings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/etf_warnings.json",
+            "MD5": "b49b5603d2df29fa132f89ec91974572",
+            "path": "config/etf_warnings.json"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "efda1d202619378a94d86e20bfdfd595",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "ferritecore.mixin.properties",
+          "name": "ferritecore.mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1525,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/ferritecore.mixin.properties",
+            "MD5": "bf3e6be63e300b0290cfc849beb64ede",
+            "path": "config/ferritecore.mixin.properties"
+          }
+        },
+        {
+          "id": "forgeconfigapiport.toml",
+          "name": "forgeconfigapiport.toml",
+          "type": "File",
+          "artifact": {
+            "size": 523,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/forgeconfigapiport.toml",
+            "MD5": "80b3cd8edc58e5849bf5a7a0c48bd4ef",
+            "path": "config/forgeconfigapiport.toml"
+          }
+        },
+        {
+          "id": "keybinds.toml",
+          "name": "keybinds.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6403,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/fzzy_config/keybinds.toml",
+            "MD5": "db29914636f6e1455464345f8e91d353",
+            "path": "config/fzzy_config/keybinds.toml"
+          }
+        },
+        {
+          "id": "hold-my-items.json",
+          "name": "hold-my-items.json",
+          "type": "File",
+          "artifact": {
+            "size": 179,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/hold-my-items.json",
+            "MD5": "62a8ee8b84d5b63fd772e6bf85577919",
+            "path": "config/hold-my-items.json"
+          }
+        },
+        {
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 1108,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/immediatelyfast.json",
+            "MD5": "bf551df703995714b41f949d58db0427",
+            "path": "config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 284,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/iris.properties",
+            "MD5": "8702cfe6e45bedf3362d888a821f8707",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "journeymap-server.json",
+          "name": "journeymap-server.json",
+          "type": "File",
+          "artifact": {
+            "size": 67,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/journeymap-server.json",
+            "MD5": "1de3b1bd220fc2e0696e0946001baa66",
+            "path": "config/journeymap-server.json"
+          }
+        },
+        {
+          "id": "lambdynlights.toml",
+          "name": "lambdynlights.toml",
+          "type": "File",
+          "artifact": {
+            "size": 895,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/lambdynlights.toml",
+            "MD5": "87038bed1039e3e680e092e0038b8c10",
+            "path": "config/lambdynlights.toml"
+          }
+        },
+        {
+          "id": "modelfix-client.json",
+          "name": "modelfix-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/modelfix-client.json",
+            "MD5": "af2d4dfa62f6c4292257d5e86d3ceb0f",
+            "path": "config/modelfix-client.json"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 840,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/modmenu.json",
+            "MD5": "6f801fc101c146e1c993f05544858c34",
+            "path": "config/modmenu.json"
+          }
+        },
+        {
+          "id": "packetfixer.properties",
+          "name": "packetfixer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/packetfixer.properties",
+            "MD5": "a8a245dc60939d467a8b33d100ad58ef",
+            "path": "config/packetfixer.properties"
+          }
+        },
+        {
+          "id": "particlerain.json",
+          "name": "particlerain.json",
+          "type": "File",
+          "artifact": {
+            "size": 8587,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/particlerain.json",
+            "MD5": "e85dffbb96acc57f95fb4540ae005117",
+            "path": "config/particlerain.json"
+          }
+        },
+        {
+          "id": "particular.json5",
+          "name": "particular.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1119,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/particular.json5",
+            "MD5": "ddcebdcf90960654a345db40d1a02f19",
+            "path": "config/particular.json5"
+          }
+        },
+        {
+          "id": "de_de.json",
+          "name": "de_de.json",
+          "type": "File",
+          "artifact": {
+            "size": 8510,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/de_de.json",
+            "MD5": "cb8838ceada0cc1ac72d33c3359eb883",
+            "path": "config/plasmovoice/.crowdin/de_de.json"
+          }
+        },
+        {
+          "id": "es_es.json",
+          "name": "es_es.json",
+          "type": "File",
+          "artifact": {
+            "size": 9115,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/es_es.json",
+            "MD5": "ebe33e9b2d8f8f2d4519edb2e4394e40",
+            "path": "config/plasmovoice/.crowdin/es_es.json"
+          }
+        },
+        {
+          "id": "fr_fr.json",
+          "name": "fr_fr.json",
+          "type": "File",
+          "artifact": {
+            "size": 9154,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/fr_fr.json",
+            "MD5": "f3a517b45d6920f327020408fd9751fd",
+            "path": "config/plasmovoice/.crowdin/fr_fr.json"
+          }
+        },
+        {
+          "id": "he_il.json",
+          "name": "he_il.json",
+          "type": "File",
+          "artifact": {
+            "size": 9290,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/he_il.json",
+            "MD5": "2f2e21189a6f11d39a33b7b66a111b5c",
+            "path": "config/plasmovoice/.crowdin/he_il.json"
+          }
+        },
+        {
+          "id": "ja_jp.json",
+          "name": "ja_jp.json",
+          "type": "File",
+          "artifact": {
+            "size": 9476,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/ja_jp.json",
+            "MD5": "2c8135f0c3d994724e45603cd8cfd417",
+            "path": "config/plasmovoice/.crowdin/ja_jp.json"
+          }
+        },
+        {
+          "id": "ko_kr.json",
+          "name": "ko_kr.json",
+          "type": "File",
+          "artifact": {
+            "size": 9208,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/ko_kr.json",
+            "MD5": "ab87eb710206cd3eef9e1ba03f88bd57",
+            "path": "config/plasmovoice/.crowdin/ko_kr.json"
+          }
+        },
+        {
+          "id": "pl_pl.json",
+          "name": "pl_pl.json",
+          "type": "File",
+          "artifact": {
+            "size": 8890,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/pl_pl.json",
+            "MD5": "6a09569fa006d3f01bc00333838df100",
+            "path": "config/plasmovoice/.crowdin/pl_pl.json"
+          }
+        },
+        {
+          "id": "pt_br.json",
+          "name": "pt_br.json",
+          "type": "File",
+          "artifact": {
+            "size": 9046,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/pt_br.json",
+            "MD5": "97bd0d3f6c281f960cf448c4346563fc",
+            "path": "config/plasmovoice/.crowdin/pt_br.json"
+          }
+        },
+        {
+          "id": "ru_ru.json",
+          "name": "ru_ru.json",
+          "type": "File",
+          "artifact": {
+            "size": 11446,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/ru_ru.json",
+            "MD5": "9c3a8c7dc0eb3a6640847988b139fb00",
+            "path": "config/plasmovoice/.crowdin/ru_ru.json"
+          }
+        },
+        {
+          "id": "timestamp",
+          "name": "timestamp",
+          "type": "File",
+          "artifact": {
+            "size": 13,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/timestamp",
+            "MD5": "23cd4384bb72cbbe32e2e947be5abc2d",
+            "path": "config/plasmovoice/.crowdin/timestamp"
+          }
+        },
+        {
+          "id": "tt_ru.json",
+          "name": "tt_ru.json",
+          "type": "File",
+          "artifact": {
+            "size": 11312,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/tt_ru.json",
+            "MD5": "6f8f48b6ce5ec3b6f8ea9cf34a3d5dc4",
+            "path": "config/plasmovoice/.crowdin/tt_ru.json"
+          }
+        },
+        {
+          "id": "uk_ua.json",
+          "name": "uk_ua.json",
+          "type": "File",
+          "artifact": {
+            "size": 10828,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/uk_ua.json",
+            "MD5": "a68060377351fcfdbf5c0af87330e6c7",
+            "path": "config/plasmovoice/.crowdin/uk_ua.json"
+          }
+        },
+        {
+          "id": "zh_cn.json",
+          "name": "zh_cn.json",
+          "type": "File",
+          "artifact": {
+            "size": 8123,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/zh_cn.json",
+            "MD5": "6a385d12b888457adee2b62acc8e9aa6",
+            "path": "config/plasmovoice/.crowdin/zh_cn.json"
+          }
+        },
+        {
+          "id": "zh_tw.json",
+          "name": "zh_tw.json",
+          "type": "File",
+          "artifact": {
+            "size": 7637,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/.crowdin/zh_tw.json",
+            "MD5": "2d6f70c853f3707a19472a8b1a6422c0",
+            "path": "config/plasmovoice/.crowdin/zh_tw.json"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1806,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/client.toml",
+            "MD5": "eeb88ed2b3ac348d2ee1f837a42b7d14",
+            "path": "config/plasmovoice/client.toml"
+          }
+        },
+        {
+          "id": "meta_cache.json",
+          "name": "meta_cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 655,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/meta_cache.json",
+            "MD5": "e3a1552b47f6ab9a44275968c9eae663",
+            "path": "config/plasmovoice/meta_cache.json"
+          }
+        },
+        {
+          "id": "config.toml",
+          "name": "config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1099,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/config.toml",
+            "MD5": "a20bf4e2e9fd22828ea3cb9842e97e8e",
+            "path": "config/plasmovoice/server/config.toml"
+          }
+        },
+        {
+          "id": "de_de.toml",
+          "name": "de_de.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2187,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/de_de.toml",
+            "MD5": "2089abe483e394b6bca56e9d5e678356",
+            "path": "config/plasmovoice/server/languages/.crowdin/de_de.toml"
+          }
+        },
+        {
+          "id": "es_es.toml",
+          "name": "es_es.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2123,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/es_es.toml",
+            "MD5": "a460aa40e6caf8f608d5d9eef37a352d",
+            "path": "config/plasmovoice/server/languages/.crowdin/es_es.toml"
+          }
+        },
+        {
+          "id": "fr_fr.toml",
+          "name": "fr_fr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2099,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/fr_fr.toml",
+            "MD5": "740fdb640a023b211ed687635401a9d1",
+            "path": "config/plasmovoice/server/languages/.crowdin/fr_fr.toml"
+          }
+        },
+        {
+          "id": "he_il.toml",
+          "name": "he_il.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2228,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/he_il.toml",
+            "MD5": "f9dea392bcf8b6e753a27df4f992423b",
+            "path": "config/plasmovoice/server/languages/.crowdin/he_il.toml"
+          }
+        },
+        {
+          "id": "ja_jp.toml",
+          "name": "ja_jp.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2508,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/ja_jp.toml",
+            "MD5": "f0eee7a99ea6c2d643c8140c19454a8a",
+            "path": "config/plasmovoice/server/languages/.crowdin/ja_jp.toml"
+          }
+        },
+        {
+          "id": "ko_kr.toml",
+          "name": "ko_kr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2356,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/ko_kr.toml",
+            "MD5": "0ebaa356e476ef191aea62286e6f6201",
+            "path": "config/plasmovoice/server/languages/.crowdin/ko_kr.toml"
+          }
+        },
+        {
+          "id": "pl_pl.toml",
+          "name": "pl_pl.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2040,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/pl_pl.toml",
+            "MD5": "878c8082d74bf35b7a90e09bdeb2e77c",
+            "path": "config/plasmovoice/server/languages/.crowdin/pl_pl.toml"
+          }
+        },
+        {
+          "id": "pt_br.toml",
+          "name": "pt_br.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2035,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/pt_br.toml",
+            "MD5": "5bce271883e6122226e028673426ef48",
+            "path": "config/plasmovoice/server/languages/.crowdin/pt_br.toml"
+          }
+        },
+        {
+          "id": "ru_ru.toml",
+          "name": "ru_ru.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2531,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/ru_ru.toml",
+            "MD5": "c7f9382eefb0b7eaa0019e53ca59a1d8",
+            "path": "config/plasmovoice/server/languages/.crowdin/ru_ru.toml"
+          }
+        },
+        {
+          "id": "timestamp",
+          "name": "timestamp",
+          "type": "File",
+          "artifact": {
+            "size": 13,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/timestamp",
+            "MD5": "40c6d16ceef24fa98c88ddf7e0a98e79",
+            "path": "config/plasmovoice/server/languages/.crowdin/timestamp"
+          }
+        },
+        {
+          "id": "tr_tr.toml",
+          "name": "tr_tr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 825,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/tr_tr.toml",
+            "MD5": "973828fe670930a51d9594913a270cb4",
+            "path": "config/plasmovoice/server/languages/.crowdin/tr_tr.toml"
+          }
+        },
+        {
+          "id": "tt_ru.toml",
+          "name": "tt_ru.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2913,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/tt_ru.toml",
+            "MD5": "f5d14860658cf0751277709266047a8c",
+            "path": "config/plasmovoice/server/languages/.crowdin/tt_ru.toml"
+          }
+        },
+        {
+          "id": "uk_ua.toml",
+          "name": "uk_ua.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2730,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/uk_ua.toml",
+            "MD5": "679c42fb12563dead83f7a0111ba6eb4",
+            "path": "config/plasmovoice/server/languages/.crowdin/uk_ua.toml"
+          }
+        },
+        {
+          "id": "zh_cn.toml",
+          "name": "zh_cn.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1882,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/zh_cn.toml",
+            "MD5": "74b40c78208fe6f358a346dd2adb76e8",
+            "path": "config/plasmovoice/server/languages/.crowdin/zh_cn.toml"
+          }
+        },
+        {
+          "id": "zh_tw.toml",
+          "name": "zh_tw.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1879,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/.crowdin/zh_tw.toml",
+            "MD5": "6c4a2685db02eb56892a8440c075ce40",
+            "path": "config/plasmovoice/server/languages/.crowdin/zh_tw.toml"
+          }
+        },
+        {
+          "id": "de_de.toml",
+          "name": "de_de.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2175,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/de_de.toml",
+            "MD5": "93a9d14a724a6502ac6e7fdca8d7b121",
+            "path": "config/plasmovoice/server/languages/de_de.toml"
+          }
+        },
+        {
+          "id": "en_us.toml",
+          "name": "en_us.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1892,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/en_us.toml",
+            "MD5": "49ebe9ff33a62a4f28ec5b8b965ba2c9",
+            "path": "config/plasmovoice/server/languages/en_us.toml"
+          }
+        },
+        {
+          "id": "es_es.toml",
+          "name": "es_es.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2111,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/es_es.toml",
+            "MD5": "285832ac1b88e96ce360eddf2b5fe8b3",
+            "path": "config/plasmovoice/server/languages/es_es.toml"
+          }
+        },
+        {
+          "id": "fr_fr.toml",
+          "name": "fr_fr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2087,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/fr_fr.toml",
+            "MD5": "ac96d5a885a08166603b8c4a872b8cfa",
+            "path": "config/plasmovoice/server/languages/fr_fr.toml"
+          }
+        },
+        {
+          "id": "he_il.toml",
+          "name": "he_il.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2216,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/he_il.toml",
+            "MD5": "e0dd440bbd2b90aa0218ce09316ba0fa",
+            "path": "config/plasmovoice/server/languages/he_il.toml"
+          }
+        },
+        {
+          "id": "ja_jp.toml",
+          "name": "ja_jp.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2496,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/ja_jp.toml",
+            "MD5": "0501901e5fd117eb8720be4f385a66a0",
+            "path": "config/plasmovoice/server/languages/ja_jp.toml"
+          }
+        },
+        {
+          "id": "ko_kr.toml",
+          "name": "ko_kr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2344,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/ko_kr.toml",
+            "MD5": "22ca682e2bacbdd62a664d52977218e6",
+            "path": "config/plasmovoice/server/languages/ko_kr.toml"
+          }
+        },
+        {
+          "id": "pl_pl.toml",
+          "name": "pl_pl.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2028,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/pl_pl.toml",
+            "MD5": "65591e68a7501980c5c4270c096203ea",
+            "path": "config/plasmovoice/server/languages/pl_pl.toml"
+          }
+        },
+        {
+          "id": "pt_br.toml",
+          "name": "pt_br.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2023,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/pt_br.toml",
+            "MD5": "f0f8d12c31b72c36c2b806fd47786f80",
+            "path": "config/plasmovoice/server/languages/pt_br.toml"
+          }
+        },
+        {
+          "id": "ru_ru.toml",
+          "name": "ru_ru.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2519,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/ru_ru.toml",
+            "MD5": "1b3d72cf2e187d8bcd62fb8d49bd03a7",
+            "path": "config/plasmovoice/server/languages/ru_ru.toml"
+          }
+        },
+        {
+          "id": "tr_tr.toml",
+          "name": "tr_tr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 820,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/tr_tr.toml",
+            "MD5": "a8fc4a714b0ed6278edcf749df422636",
+            "path": "config/plasmovoice/server/languages/tr_tr.toml"
+          }
+        },
+        {
+          "id": "tt_ru.toml",
+          "name": "tt_ru.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2901,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/tt_ru.toml",
+            "MD5": "0b9b86cc64bb0b57427f61dfe53d436f",
+            "path": "config/plasmovoice/server/languages/tt_ru.toml"
+          }
+        },
+        {
+          "id": "uk_ua.toml",
+          "name": "uk_ua.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2718,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/uk_ua.toml",
+            "MD5": "3460a9c5c46205ee2892e18b2f62a2bd",
+            "path": "config/plasmovoice/server/languages/uk_ua.toml"
+          }
+        },
+        {
+          "id": "zh_cn.toml",
+          "name": "zh_cn.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1870,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/zh_cn.toml",
+            "MD5": "3fdc475103740fa0974b9c006a78bd5d",
+            "path": "config/plasmovoice/server/languages/zh_cn.toml"
+          }
+        },
+        {
+          "id": "zh_tw.toml",
+          "name": "zh_tw.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1867,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/languages/zh_tw.toml",
+            "MD5": "d5f312dfe6d8ef936b807e736807d2f4",
+            "path": "config/plasmovoice/server/languages/zh_tw.toml"
+          }
+        },
+        {
+          "id": "voice_mutes.json",
+          "name": "voice_mutes.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/plasmovoice/server/voice_mutes.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/plasmovoice/server/voice_mutes.json"
+          }
+        },
+        {
+          "id": "updater.json",
+          "name": "updater.json",
+          "type": "File",
+          "artifact": {
+            "size": 68,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/presencefootsteps/updater.json",
+            "MD5": "6a16a5be1c185667699608f173008110",
+            "path": "config/presencefootsteps/updater.json"
+          }
+        },
+        {
+          "id": "userconfig.json",
+          "name": "userconfig.json",
+          "type": "File",
+          "artifact": {
+            "size": 424,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/presencefootsteps/userconfig.json",
+            "MD5": "3e76d67731a89cefb2c4970161cad182",
+            "path": "config/presencefootsteps/userconfig.json"
+          }
+        },
+        {
+          "id": "smoothscroll.json",
+          "name": "smoothscroll.json",
+          "type": "File",
+          "artifact": {
+            "size": 595,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/smoothscroll.json",
+            "MD5": "cd47f0fa8deb35dfbd367f65d419d4bc",
+            "path": "config/smoothscroll.json"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1486,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/sodium-extra-options.json",
+            "MD5": "85c3cfcc34b90657ff933457225885f3",
+            "path": "config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-extra.properties",
+          "name": "sodium-extra.properties",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/sodium-extra.properties",
+            "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
+            "path": "config/sodium-extra.properties"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/sodium-fingerprint.json",
+            "MD5": "74e6fc39c8a97a8cbb8b9726c429f012",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 258,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/sodium-mixins.properties",
+            "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 663,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/sodium-options.json",
+            "MD5": "fe652da83cf4a950615240676256442d",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "blocks.toml",
+          "name": "blocks.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3077,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/subtle_effects/blocks.toml",
+            "MD5": "875a13ab8572e8994adf1662a94a63e0",
+            "path": "config/subtle_effects/blocks.toml"
+          }
+        },
+        {
+          "id": "entities.toml",
+          "name": "entities.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2594,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/subtle_effects/entities.toml",
+            "MD5": "098c77c593f98fd7b1f61f9b9f05f7be",
+            "path": "config/subtle_effects/entities.toml"
+          }
+        },
+        {
+          "id": "environment.toml",
+          "name": "environment.toml",
+          "type": "File",
+          "artifact": {
+            "size": 590,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/subtle_effects/environment.toml",
+            "MD5": "595c2b6c550d728dc6836ab20da656ba",
+            "path": "config/subtle_effects/environment.toml"
+          }
+        },
+        {
+          "id": "general.toml",
+          "name": "general.toml",
+          "type": "File",
+          "artifact": {
+            "size": 643,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/subtle_effects/general.toml",
+            "MD5": "c606a32232d6bc1baed7232b8e9e813a",
+            "path": "config/subtle_effects/general.toml"
+          }
+        },
+        {
+          "id": "items.toml",
+          "name": "items.toml",
+          "type": "File",
+          "artifact": {
+            "size": 408,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/subtle_effects/items.toml",
+            "MD5": "ff34f6339694e9921534e308f544b9a2",
+            "path": "config/subtle_effects/items.toml"
+          }
+        },
+        {
+          "id": "talk_balloons.json5",
+          "name": "talk_balloons.json5",
+          "type": "File",
+          "artifact": {
+            "size": 228,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/talk_balloons.json5",
+            "MD5": "f37f1536a4023d99c62f66fe7249b4c6",
+            "path": "config/talk_balloons.json5"
+          }
+        },
+        {
+          "id": "waveycapes.json",
+          "name": "waveycapes.json",
+          "type": "File",
+          "artifact": {
+            "size": 179,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/waveycapes.json",
+            "MD5": "a7c8c6467d45988eef46dea486fad847",
+            "path": "config/waveycapes.json"
+          }
+        },
+        {
+          "id": "yacl.json5",
+          "name": "yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/yacl.json5",
+            "MD5": "81d542abb72c4750c7218e0d975e3368",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "zoomify.json",
+          "name": "zoomify.json",
+          "type": "File",
+          "artifact": {
+            "size": 713,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/config/zoomify.json",
+            "MD5": "17c4bf188d14077eec9f6730bc5abae8",
+            "path": "config/zoomify.json"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip",
+          "name": "ComplementaryUnbound_r5.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 452408,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip",
+            "MD5": "94f56d5c5c343b9a0f4ad7eb135f9afa",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip.txt",
+          "name": "ComplementaryUnbound_r5.4.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1648,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip.txt",
+            "MD5": "bccf4fc458b7abd92931ef2d796cc4c7",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip.txt"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.52 Lite.zip",
+          "name": "Sildur's Vibrant Shaders v1.52 Lite.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142508,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Lite.zip",
+            "MD5": "ceba4ca74a1e49636cfe96417cadf790",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Lite.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.52 Lite.zip.txt",
+          "name": "Sildur's Vibrant Shaders v1.52 Lite.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/Haggo/main/launcher/servers/HG-setup-1.21.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Lite.zip.txt",
+            "MD5": "0dc55df4036cc1f578b1f0c7b99845fc",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Lite.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
